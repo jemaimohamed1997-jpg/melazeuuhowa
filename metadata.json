@@ -1,0 +1,8 @@
+{
+  "name": "Huilerie Jemai - Gestion de Stock d'Huile d'Olive",
+  "description": "Application complète de gestion de stockage d'huile d'olive par cuve/pile et par client, contrôle des capacités, bons de réception/sortie, trituration et vente de grignons pour Huilerie Jemai (معصرة جماعي).",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}

@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Huilerie Jemai (معصرة جماعي) - Gestion de Stock d'Huile d'Olive</title>
+    <meta name="description" content="Application complète de gestion de stockage d'huile d'olive par cuve/pile et client, contrôle strict des capacités, historique permanent et impression des bons." />
+    <meta property="og:title" content="Huilerie Jemai - Gestion de Stock d'Huile d'Olive" />
+    <meta property="og:description" content="Application complète de gestion de stockage d'huile d'olive pour Huilerie Jemai (معصرة جماعي)." />
+    <meta property="og:type" content="website" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=Amiri:wght@700&family=JetBrains+Mono:wght@400;600&display=swap" rel="stylesheet">
+    <style>
+      @media print {
+        body {
+          background: white !important;
+          color: black !important;
+          margin: 0 !important;
+          padding: 0 !important;
+        }
+        .no-print {
+          display: none !important;
+        }
+        .print-only {
+          display: block !important;
+        }
+        @page {
+          size: A4 portrait;
+          margin: 12mm;
+        }
+      }
+    </style>
+  </head>
+  <body class="bg-stone-100 text-stone-900 font-sans antialiased selection:bg-amber-200 selection:text-amber-900">
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>
